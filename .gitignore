@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Segredos
+.env
+.streamlit/secrets.toml
+
+# Saídas geradas pelo app
+*.geojson
+zonar_carapicuiba_*.json
+
+# IDEs
+.vscode/
+.idea/
